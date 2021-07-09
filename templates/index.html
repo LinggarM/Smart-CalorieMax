@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Menu Makanan Murah, Sehat, dan Berkhasiat</title>
+
+    <!-- Icons font CSS-->
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='vendor/mdi-font/css/material-design-iconic-font.min.css') }}">
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='vendor/font-awesome-4.7/css/font-awesome.min.css') }}">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='vendor/select2/select2.min.css') }}">
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='vendor/datepicker/daterangepicker.css') }}">
+
+    <!-- Main CSS-->
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+	
+	<style>
+		.page-wrapper{padding:20px}
+	</style>
+</head>
+
+<body>
+    <div class="page-wrapper bg-red p-t-180 p-b-100 font-robo">
+        <div class="wrapper wrapper--w960">
+            <div class="card card-2">
+                <div class="card-heading"></div>
+                <div class="card-body">
+                    <h2 class="title">Menu Makanan Murah, Sehat, dan Berkhasiat dengan Genetic Algorithm</h2>
+                    <form action="/" method="POST">
+                        <div class="input-group">
+                            <input class="input--style-2" type="textarea" placeholder="Masukkan 10 jenis makanan (Pisahkan dengan koma)" name="nama_makanan">
+                        </div>
+                        <div class="input-group">
+                            <input class="input--style-2" type="textarea" placeholder="Masukkan nilai kalori tiap makanan (Pisahkan dengan koma)" name="value_makanan">
+                        </div>
+                        <div class="input-group">
+                            <input class="input--style-2" type="textarea" placeholder="Masukkan harga tiap makanan (Pisahkan dengan koma)" name="harga_makanan">
+                        </div>
+                        <div class="input-group">
+                            <input class="input--style-2" type="number" placeholder="Masukkan uang yang kamu punya (Satuan rupiah)" name="uang">
+                        </div>
+                        <div class="p-t-30">
+                            <button class="btn btn--radius btn--green" type="submit">Kalkulasi</button>
+                        </div>
+                    </form>
+		<br/>
+		<br/>
+		<p>Yang Bisa Kamu Makan : </p>
+		<h4><b>{{ data[0] }}</b></h4>
+		<br/>
+		<p>Total Kalori : </p>
+		<h4><b>{{ data[1] }}</b></h4>
+		<br/>
+		<p>Uang Yang Dibutuhkan : </p>
+		<h4><b>{{ data[2] }}</b></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->
