@@ -63,6 +63,10 @@ run Flask
 
 <img src="images/screenshot.png">
 
+## Demo
+
+<a href="https://drive.google.com/file/d/1K1WzoqYeEvU1BD8uuMkOEsGb2WLkBY6D/view">Implemetasi Algoritma Genetika.mkv - Google Drive</a>
+
 ## Authors
 
 * Linggar Maretva Cendani - [Linggar Maretva Cendani](https://linggar.me) - [linggarmc@gmail.com](mailto:linggarmc@gmail.com)
