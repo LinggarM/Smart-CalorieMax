@@ -1,8 +1,8 @@
-# Menu-Makanan-Murah-Sehat-Dan-Berkhasiat-Dengan-Genetic-Algorithm
+# Smart CalorieMax: Find High-Calorie, Budget-Friendly Meals with Genetic Algorithms
 A web app that utilizes Genetic Algorithms to generate a list of foods offering maximum calorie content within a specified budget.
 
 ## About the Project
-Menu Makanan Murah Sehat Dan Berkhasiat Dengan Genetic Algorithm (Cheap, Healthy, and Nutritious Food Menu Using Genetic Algorithm) is a program to get **a list of foods with the highest calories** based on the money you have from a given :
+Smart CalorieMax is a program to get **a list of foods with the highest calories** based on the money you have from a given :
   * list of foods,
   * calories for each food, and
   * how much amount of money you have (budget)**.
