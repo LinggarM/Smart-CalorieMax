@@ -1,0 +1,41 @@
+--- 1 ---
+Nasi 130 kcal
+Kentang 175 kcal
+Jagung 85 kcal
+Ubi 85 kcal
+Tempe 193 kcal
+Tahu 76 kcal
+Telur 155 kcal
+Ayam 239 kcal
+Sapi 250 kcal
+Pisang 89 kcal
+
+Nasi, Kentang, Jagung, Ubi, Tempe, Tahu, Telur, Ayam, Sapi, Pisang
+130, 175, 85, 85, 193, 76, 155, 239, 250, 89
+5000, 2000, 3000, 5000, 2000, 2000, 3000, 10000, 15000, 4000
+
+--- 2 ---
+Oatmeal 97 kcal
+Roti 265 kcal
+Mie Instan 200 kcal
+Tuna 132 kcal
+Salmon 208 kcal
+Lele 122 kcal
+Keju 403 kcal
+Jamur 22 kcal
+Apel 52 kcal
+Alpukat 160 kcal
+
+Oatmeal, Roti, Mie Instan, Tuna, Salmon, Lele, Keju, Jamur, Apel, Alpukat
+97, 265, 200, 132, 208, 122, 403, 22, 52, 160
+7000, 10000, 5000, 20000, 20000, 10000, 5000, 5000, 30000, 7000
+
+--- 3 ---
+Nasi, Telur, Daging Ayam, Kangkung, Bayam, Buncis, Kerupuk, Susu, Pisang, Pir
+300, 150, 200, 100, 100, 150, 50, 70, 70, 70
+5000, 3000, 10000, 2000, 2000, 2000, 1000, 3000, 2000, 3000
+
+Result:
+Yang Bisa Kamu Makan : Nasi, Telur, Kangkung, Bayam, Buncis, Kerupuk,
+Total Kalori : 850
+Uang Yang Dibutuhkan : 15000
