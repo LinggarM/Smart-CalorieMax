@@ -10,7 +10,7 @@
     <meta name="keywords" content="Colorlib Templates">
 
     <!-- Title Page-->
-    <title>Menu Makanan Murah, Sehat, dan Berkhasiat</title>
+    <title>Smart CalorieMax: Find High-Calorie, Budget-Friendly Meals with Genetic Algorithms</title>
 
     <!-- Icons font CSS-->
 	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='vendor/mdi-font/css/material-design-iconic-font.min.css') }}">
@@ -37,7 +37,10 @@
             <div class="card card-2">
                 <div class="card-heading"></div>
                 <div class="card-body">
-                    <h2 class="title">Menu Makanan Murah, Sehat, dan Berkhasiat dengan Genetic Algorithm</h2>
+                    <h2 class="title">Smart CalorieMax</h2>
+					<h4>Find High-Calorie, Budget-Friendly Meals with Genetic Algorithms</h4>
+					<br/>
+					<br/>
                     <form action="/" method="POST">
                         <div class="input-group">
                             <input class="input--style-2" type="textarea" placeholder="Masukkan 10 jenis makanan (Pisahkan dengan koma)" name="nama_makanan">
@@ -55,16 +58,16 @@
                             <button class="btn btn--radius btn--green" type="submit">Kalkulasi</button>
                         </div>
                     </form>
-		<br/>
-		<br/>
-		<p>Yang Bisa Kamu Makan : </p>
-		<h4><b>{{ data[0] }}</b></h4>
-		<br/>
-		<p>Total Kalori : </p>
-		<h4><b>{{ data[1] }}</b></h4>
-		<br/>
-		<p>Uang Yang Dibutuhkan : </p>
-		<h4><b>{{ data[2] }}</b></h4>
+					<br/>
+					<br/>
+					<p>Yang Bisa Kamu Makan : </p>
+					<h4><b>{{ data[0] }}</b></h4>
+					<br/>
+					<p>Total Kalori : </p>
+					<h4><b>{{ data[1] }}</b></h4>
+					<br/>
+					<p>Uang Yang Dibutuhkan : </p>
+					<h4><b>{{ data[2] }}</b></h4>
                 </div>
             </div>
         </div>

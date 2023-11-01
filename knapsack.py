@@ -1,8 +1,6 @@
 import numpy as np
-import pandas as pd
 import random as rd
 from random import randint
-import matplotlib.pyplot as plt
 
 def cal_fitness(weight, value, population, threshold):
     fitness = np.empty(population.shape[0])

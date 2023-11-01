@@ -10,8 +10,19 @@ def index():
         value_makanan = request.form['value_makanan']
         harga_makanan = request.form['harga_makanan']
         uang = request.form['uang']
-        return render_template('index.html', data=knapsack.kalkulasi(nama_makanan, value_makanan, harga_makanan, uang))
-    return render_template("index.html", data="")
+        return render_template(
+            'index.html', 
+            data= knapsack.kalkulasi(
+                nama_makanan, 
+                value_makanan, 
+                harga_makanan, 
+                uang
+            )
+        )
+    return render_template(
+        "index.html", 
+        data=""
+    )
 
 if __name__ == "__main__":
     app.run()
