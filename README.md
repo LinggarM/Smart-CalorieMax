@@ -13,7 +13,10 @@ Smart CalorieMax will provide a combination of food with the highest total calor
 
 Smart CalorieMax use **Genetic Algorithm** to determine the list of foods with the highest calories.
 
-This program is a web-based platform, created with Flask using Python programming language. The output of the program is a list of foods, total calories, and money required to get the foods.
+This program is a web-based platform, created with Flask using Python programming language. The output of the program is :
+ * a list of foods,
+ * total calories, and
+ * money required to get the foods.
 
 ## Screenshots
   Dashboard
