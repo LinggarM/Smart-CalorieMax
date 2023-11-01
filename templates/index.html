@@ -41,32 +41,42 @@
 					<h4>Find High-Calorie, Budget-Friendly Meals with Genetic Algorithms</h4>
 					<br/>
 					<br/>
-                    <form action="/" method="POST">
-                        <div class="input-group">
-                            <input class="input--style-2" type="textarea" placeholder="Masukkan 10 jenis makanan (Pisahkan dengan koma)" name="nama_makanan">
-                        </div>
-                        <div class="input-group">
-                            <input class="input--style-2" type="textarea" placeholder="Masukkan nilai kalori tiap makanan (Pisahkan dengan koma)" name="value_makanan">
-                        </div>
-                        <div class="input-group">
-                            <input class="input--style-2" type="textarea" placeholder="Masukkan harga tiap makanan (Pisahkan dengan koma)" name="harga_makanan">
-                        </div>
-                        <div class="input-group">
-                            <input class="input--style-2" type="number" placeholder="Masukkan uang yang kamu punya (Satuan rupiah)" name="uang">
-                        </div>
-                        <div class="p-t-30">
-                            <button class="btn btn--radius btn--green" type="submit">Kalkulasi</button>
-                        </div>
-                    </form>
+					<br/>
+					<form action="/" method="POST">
+						<div class="input-group">
+							<label for="number_of_item">Enter the number of food options</label>
+							<input class="input--style-2" type="number" placeholder="E.g., 10" name="number_of_item" id="number_of_item">
+						</div>
+						<div class="input-group">
+							<label for="nama_makanan">Enter all of the food names (Separate them with commas)</label>
+							<input class="input--style-2" type="textarea" placeholder="E.g., Food1, Food2, Food3" name="nama_makanan" id="nama_makanan">
+						</div>
+						<div class="input-group">
+							<label for="value_makanan">Enter the calorie value of each food (Separate them with commas)</label>
+							<input class="input--style-2" type="textarea" placeholder="E.g., 100, 200, 150" name="value_makanan" id="value_makanan">
+						</div>
+						<div class="input-group">
+							<label for="harga_makanan">Enter the price of each food (Separate them with commas & don't use currency)</label>
+							<input class="input--style-2" type="textarea" placeholder="E.g., 5000, 8000, 10000" name="harga_makanan" id="harga_makanan">
+						</div>
+						<div class="input-group">
+							<label for="uang">Enter the budget/money you have</label>
+							<input class="input--style-2" type="number" placeholder="E.g., 100" name="uang" id="uang">
+						</div>
+						<div>
+							<button class="btn btn--radius btn--green" type="submit">Calculate</button>
+						</div>
+					</form>
 					<br/>
 					<br/>
-					<p>Yang Bisa Kamu Makan : </p>
+					<br/>
+					<p>What You Can Eat:</p>
 					<h4><b>{{ data[0] }}</b></h4>
 					<br/>
-					<p>Total Kalori : </p>
+					<p>Total Calories:</p>
 					<h4><b>{{ data[1] }}</b></h4>
 					<br/>
-					<p>Uang Yang Dibutuhkan : </p>
+					<p>Money Required:</p>
 					<h4><b>{{ data[2] }}</b></h4>
                 </div>
             </div>

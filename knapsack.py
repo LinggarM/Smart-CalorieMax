@@ -92,12 +92,12 @@ def optimize(weight, value, population, pop_size, num_generations, threshold):
     return parameters, fitness_history
 
 
-def kalkulasi(nama_makanan, value_makanan, harga_makanan, uang) :
+def kalkulasi(number_of_item, nama_makanan, value_makanan, harga_makanan, uang) :
 	numpy_nama_makanan = np.array([i for i in nama_makanan.split(',')])
 	numpy_value_makanan = np.array([int(i) for i in value_makanan.split(',')])
 	numpy_harga_makanan = np.array([int(i) for i in harga_makanan.split(',')])
 	
-	item_number = np.arange(1,11)
+	item_number = np.arange(1, int(number_of_item) + 1)
 	weight = numpy_harga_makanan
 	value = numpy_value_makanan
 	knapsack_threshold = int(uang)
