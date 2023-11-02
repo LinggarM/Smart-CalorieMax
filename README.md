@@ -3,7 +3,6 @@ A web app that utilizes **Genetic Algorithms** to generate a list of foods offer
 
 ## About the Project
 Smart CalorieMax is a program/ web app to get **a list of foods with the highest calories** based on **the money you have (your budget)** from a given :
-
   * list of foods (food options),
   * calories for each food,
   * prices for each food, and
@@ -11,12 +10,28 @@ Smart CalorieMax is a program/ web app to get **a list of foods with the highest
 
 Smart CalorieMax will provide a combination of food with the highest total calories from the food options that you give to the program with prices less or equal to your budget.
 
-Smart CalorieMax use **Genetic Algorithm** to determine the list of foods with the highest calories.
-
-This program is a web-based platform, created with Flask using Python programming language. The output of the program is :
- * a list of foods,
+The output of the program is :
+ * a list of foods (best combination with highest calories),
  * total calories, and
  * money required to get the foods.
+
+Smart CalorieMax use **Genetic Algorithm** to determine the list of foods with the highest calories. Here are the Genetic Algorithms parameters used in this project :
+* Coding/ representation technique: Binary
+* Chromosome length: 10 (Can be customize by user, depend on the number of food options)
+* Population size per generation: 10
+* Terminal condition/ Number of generation: 50
+* Initialization: Random
+* Fitness function:
+  * Sum(calories), if (sum(prices)) <= budget
+  * 0, otherwise
+* Parent selection: Roulette wheel
+* Crossover/ Recombination
+  * Crossover method: Single point cross over
+  * Crossover rate: 0.9
+* Mutation/ Variation
+  * Mutation method: Binary mutation
+  * Mutation rate: 0.2
+* Survivor selection/ Update generation: Elitism (Best fitness)
 
 ## Screenshots
   Dashboard
